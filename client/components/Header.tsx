@@ -14,7 +14,7 @@ export default function Header() {
         </div>
         <div className="md:w-1/2 flex justify-center">
           <Image
-            src="/placeholder.svg?height=300&width=300"
+            src="/Screenshot (91).png"
             alt="School Logo"
             width={300}
             height={300}

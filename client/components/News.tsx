@@ -9,12 +9,12 @@ const newsItems = [
   {
     title: 'New Sports Facility Opening Next Month',
     date: 'April 28, 2023',
-    excerpt: 'We\'re excited to announce the grand opening of our state-of-the-art sports complex, featuring Olympic-sized swimming pool and modern gymnasium.',
+    excerpt: 'Congratulations to all participants and winners of this year\'s Science Fair. The creativity and innovation displayed were truly inspiring.',
   },
   {
-    title: 'Student Art Exhibition',
+    title: 'Our Students Upcoming Art Exhibition ',
     date: 'April 10, 2023',
-    excerpt: 'Join us for an evening of creativity and inspiration at our annual Student Art Exhibition, showcasing works from all grade levels.',
+    excerpt: 'Congratulations to all participants and winners of this year\'s Science Fair. The creativity and innovation displayed were truly inspiring.',
   },
 ]
 

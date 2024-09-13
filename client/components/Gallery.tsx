@@ -4,12 +4,11 @@ import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 
 const gallery = [
-  { title: 'Academic Excellence', image: '/placeholder.svg?height=200&width=200', description: 'Rigorous curriculum designed to challenge and inspire students.' },
-  { title: 'Sports Programs', image: '/placeholder.svg?height=200&width=200', description: 'Comprehensive athletics program promoting teamwork and physical fitness.' },
-  { title: 'Arts & Culture', image: '/placeholder.svg?height=200&width=200', description: 'Rich cultural experiences fostering creativity and self-expression.' },
-  { title: 'Technology Integration', image: '/placeholder.svg?height=200&width=200', description: 'Cutting-edge technology enhancing the learning experience.' },
-  { title: 'Community Service', image: '/placeholder.svg?height=200&width=200', description: 'Opportunities for students to make a positive impact in their community.' },
-  { title: 'Career Guidance', image: '/placeholder.svg?height=200&width=200', description: 'Personalized counseling to help students plan for their future.' },
+  { title: 'Academic Excellence', image: '/awards.jpg' },
+  { title: 'Sports Programs', image: '/sports.webp' },
+  { title: 'Arts & Culture', image: '/arts and craft.jpg'},
+  { title: 'Technology Integration', image: '/technology.jpg'},
+  { title: 'Career Guidance', image: '/guidance.jpg'},
 ]
 
 export default function Gallery() {
@@ -73,7 +72,6 @@ export default function Gallery() {
                   />
                   <div className="p-6">
                     <h3 className="text-xl font-semibold mb-2 text-teal-600">{service.title}</h3>
-                    <p className="text-gray-600">{service.description}</p>
                   </div>
                 </div>
               </div>

@@ -8,7 +8,7 @@ export default function AboutUs() {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0 animate-slide-in-left">
             <Image
-              src="/placeholder.svg?height=300&width=500"
+              src="/group picture.webp"
               alt="About Our School"
               width={500}
               height={300}
